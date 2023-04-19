@@ -8,5 +8,5 @@ HTML, CSS yazılım dilleri ile desteklendi.
 <!-- 
 <h3>Ekran görüntüsü<h3> -->
 
-![](screen-recording.webm)
+![](cars-website.gif)
 ![](bmw-car.gif)
