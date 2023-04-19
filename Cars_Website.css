@@ -1,0 +1,261 @@
+/* Varsayılan olarak gelen özellikleri sıfırlama */
+
+*{
+    margin: 0 1px; 
+    padding: 0 1px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ! Container / Ana taşıyıcı özellikleri */
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/container2.jpg);
+    color: white;
+
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box; /* Boyutlandırmayı tamamen yazana bırakır */
+    padding: 0 10%;
+}
+
+/* ! Navbar start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+    font-size: 25px;
+    background-color: none;
+    cursor: pointer;
+}
+nav ul:hover{
+
+}
+
+nav ul li{
+    transition: all 0.2s;
+}
+
+nav ul li:hover{
+    border-bottom: 4px double white;
+    padding: 1px;
+}
+/* ! Navbar end */
+
+
+/* Bi start */
+.bi{
+    font-size: 40px;
+    cursor: alias;
+    transition: all 0.5s;
+}
+
+.bi:hover{
+    font-size: 50px;
+}
+/*  Bi end */
+
+
+
+
+/* Logo start */
+.logo{
+    border-radius: 100px;
+    width: 80px;
+    height: 70px;
+    margin: 10px 35px 10px 0;
+    cursor: grabbing;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 10px white;
+}
+/* Logo end */
+
+@media (max-width:700px){
+    .nav{
+        display: none;
+    }
+    .bi{
+        display: block;
+    }
+    .row{
+        display: block;
+    }
+}
+
+
+/* Satırlama öne çıkan içerikleri yerleştirme */
+.row{
+    margin: 50px;
+    padding-left: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    border-radius: 20%;
+
+    cursor: grabbing;
+    transition: all 0.2s;
+
+
+}
+
+.col{
+    padding: 50px;
+    background-color: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+    
+
+    flex-basis: 50%;
+    border-radius: 25px;
+    margin: 30px;
+    transition: all 0.5s;
+}
+
+.col:hover{
+    padding: 20px;
+    cursor: grabbing;
+}
+
+.col h1{
+    font-size: 70px;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+}
+
+
+.col p{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.col p:hover{
+    padding: 15px;
+}
+
+.col button{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+    border: 5px double white;
+    border-radius: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.col button:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    padding: 7px;
+    box-shadow: 5px 5px 3px 3px brown;
+}
+
+
+
+
+.card-container{
+    border-radius: 50%;
+    position: relative;
+    padding: 20px;
+}
+
+.col1{
+    padding: 50px;
+}
+
+
+.card1{
+    background-image: url(image/carrd1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    margin: 10px;
+    padding: 3px;
+    width: 280px;
+    height: 120px;
+    display: inline-block;
+    background-color: brown;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.card1:hover{
+    padding: 7px;
+}
+
+.card2{
+    background-image: url(image/car2.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+    margin: 10px;
+    padding: 3px;
+    width: 280px;
+    height: 120px;
+    display: inline-block;
+    background-color: brown;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.card2:hover{
+    padding: 7px;
+}
+
+
+.card3{
+    background-image: url(image/card3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    margin: 10px;
+    padding: 3px;
+    width: 280px;
+    height: 120px;
+    display: inline-block;
+    background-color: brown;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.card3:hover{
+    padding: 7px;
+}
+
+.card4{
+    background-image: url(image/card4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    margin: 10px;
+    padding: 3px;
+    width: 280px;
+    height: 120px;
+    display: inline-block;
+    background-color: brown;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.card4:hover{
+    padding: 7px;
+}
+
+a{
+    color: white;
+    text-align: center;
+}
