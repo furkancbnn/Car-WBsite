@@ -1,9 +1,9 @@
 # MyProjects
 
-<h2>Araba Webssite<h2>
+<h2> ⚒ Araba Webssite<h2>
 Tek sayfalık araba sitesi
 
-<h2>Kullanılan teknolojiler<h2>
+<h2> ⚒ Kullanılan teknolojiler<h2>
 HTML, CSS yazılım dilleri ile desteklendi.
 
 
